@@ -30,7 +30,7 @@ export default {
       name: 'price',
       title: 'Price',
       type: 'number',
-    }
+    },
     {
       name: 'details',
       title: 'Details',
