@@ -1,6 +1,7 @@
 import React from 'react'
+import { Product, FooterBanner, HeroBanner } from '../components';
 
-function index() {
+const Home = () => {
   return (
     <>
       HeroBanner
@@ -18,4 +19,4 @@ function index() {
   )
 }
 
-export default index
+export default Home
