@@ -5,12 +5,12 @@ function index() {
     <>
       HeroBanner
 
-      <div>
+      <div className="products-heading">
         <h2>Best Sellers</h2>
         <p>Extra about text</p>
       </div>
 
-      <div>
+      <div className="products-container">
         {['Product 1', 'Product 2'].map((product) => product )}
       </div>
       Footer
